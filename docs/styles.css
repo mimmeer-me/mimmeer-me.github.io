@@ -1,0 +1,61 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+/* General Styles */
+
+
+body, html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Backgrounds */
+
+.background_teal {
+  background-color: #edfffc;
+}
+
+/* Text */
+
+.text_teal {
+  font-weight: 400;
+  font-family: "Funnel Display", Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: clamp(0.86em, 6vw, 1.3em);
+  color: #45a292;
+}
+
+/* Text -- Headers */
+
+.header_teal {
+  font-family: "Andada Pro", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: clamp(1.1, 6vw, 1.35);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5em;
+}
+
+h1.header_teal {
+  font-weight: 800;
+  color: #106053;
+  font-size: clamp(2em, 6vw, 2.6em);
+}
+
+h2.header_teal {
+  font-weight: 700;
+  color: #106053DE;
+  font-size: clamp(1.5em, 4.5vw, 2em);
+}
+
+h3.header_teal {
+  font-weight: 600;
+  color: #106053AD;
+  font-size: clamp(1.2em, 3.5vw, 1.65em);
+}
