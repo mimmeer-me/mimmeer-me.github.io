@@ -1,11 +1,8 @@
 /* Imports */
-
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
 /* General Styles */
-
-
 body, html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,15 +10,19 @@ body, html {
   padding: 0;
 }
 
+/* Top padding fix */
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote {
+  margin-top: 0;
+}
+
 
 /* Backgrounds */
-
 .background_teal {
   background-color: #edfffc;
 }
 
-/* Text */
 
+/* Text */
 .text_teal {
   font-weight: 400;
   font-family: "Funnel Display", Arial, sans-serif;
@@ -32,7 +33,6 @@ body, html {
 }
 
 /* Text -- Headers */
-
 .header_teal {
   font-family: "Andada Pro", serif;
   font-optical-sizing: auto;
